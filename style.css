@@ -1,0 +1,115 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ADD8E6;
+    padding:15px;
+    font-size: 20px;
+    font-family: verdana;
+    font-weight: 400;
+    color: #000000;
+    border: solid;
+}
+
+.hyper{
+    border:solid;
+    border-color:rgb(75, 177, 255);
+    border-radius: 10px;
+}
+.hyper a{
+    margin-left: 20px;
+}
+
+.hyper:hover{
+    transform:scale(1.1);
+}
+
+ .origami{
+     border-radius: 20px;
+     background-color: rgb(255,255,255);
+     padding: 30px;
+     margin:25px;
+     width: 310px;
+     font-family: verdana;
+}
+
+.origami:hover{
+    transform:scale(1.1);
+}
+
+body{
+    margin: 0px;
+}
+
+.grid img{
+  border: 2px solid rgb(0,0,0);
+  border-radius: 50px;
+}
+
+img{
+    border:solid rgb(165, 161, 161);
+    border-radius: 20px;
+}
+
+.picture{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    margin:15px;
+}
+
+.title{
+    margin: 20px;
+    border: solid;
+    border-color: rgb(75, 177, 255);
+    padding: 20px;
+}
+
+.para{
+    border:solid;
+    margin:10px;
+    padding:5px;
+    border-color: rgba(222, 166, 107, 0.824);
+}
+
+.follow{
+    border:solid;
+    border-radius: 40px;
+    border-color:grey;
+    margin:10px;
+    padding:5px;
+}
+
+.apps{
+    margin-left: 40px;
+    padding: 20px;
+}
+
+.apps{
+    position:relative;
+}
+
+.apps h4{
+    position: absolute;
+    left: 4%;
+    bottom:28%;
+    opacity: 0;
+}
+
+.apps:hover h4{
+    opacity: 1;
+ }
+
+ .apps:hover img{
+    opacity: 0.25;
+ } 
+
+
+
+a:link {
+    color: rgb(149, 0, 255);
+}
+
+a:visited{
+    color: rgba(20, 75, 255, 0.952);
+}
+
